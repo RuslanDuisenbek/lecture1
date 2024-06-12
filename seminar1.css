@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.cont button {
+  background-color: green;
+  flex: 3;
+}
+.cont button:nth-child(odd) {
+  background-color: orange;
+  flex: 1;
+}
+.how_it_works {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 16px 24px 16px 24px;
+  background-color: #712fff;
+  border-radius: 100px;
+  border: none;
+  gap: 10px;
+  color: #ffffff;
+  cursor: context-menu;
+}
+.how_it_works:hover {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
